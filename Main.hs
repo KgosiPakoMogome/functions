@@ -1,3 +1,4 @@
+import MathFunctions
 grade :: Int -> String
 grade mark
     | mark >= 80 = "A"
@@ -5,18 +6,6 @@ grade mark
     | mark >= 60 = "C"
     | mark >= 50 = "D"
     | otherwise  = "U"
-
-factorial :: Int -> Int
-factorial n =
-    if n > 1 
-    then n * factorial(n-1)
-    else 1
-
-fibbonacci :: Int -> Int
-fibbonacci n 
-    |n == 0 = 0
-    |n == 1 = 1
-    |otherwise = fibbonacci(n-1) + fibbonacci(n-2)
 
 areaOfCircle :: Float -> (Float,Float) 
 areaOfCircle r = (area,per)
