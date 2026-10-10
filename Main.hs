@@ -1,5 +1,8 @@
 import MathFunctions
 import Listss
+import ListComps
+import HighO
+
 grade :: Int -> String
 grade mark
     | mark >= 80 = "A"
